@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #FFFFFF;
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: tamil MN, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -58,7 +58,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #FFFFFF;
 }
 
 hr.star-light:after {
@@ -82,10 +82,15 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
-}
+    background: url("http://www.littleupsidedowncake.com/wp-content/uploads/2013/11/RSC0747.jpg");
+    background-size: 1870px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+        opacity: 0.8;
+    }
 
 header .container {
+    height: 900px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -99,13 +104,22 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 4em;
+    font-weight: 1000;
 }
 
+
+#search-form {
+float: right;
+margin-right: 50px;
+margin-top: 20px;
+
+}
+  
+
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 6em;
+    font-weight: 1000;
 }
 
 @media(min-width:768px) {
@@ -115,11 +129,11 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 10em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 5em;
     }
 }
 
