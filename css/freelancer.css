@@ -471,3 +471,9 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.logotype {
+    position: relative;
+    top: -25px;
+    max-height: 75px;
+}
